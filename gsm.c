@@ -104,7 +104,7 @@ void clearBufferArray()              // function to clear buffer array
  
 void arcmr()
 {
-  Serial.println("AT+CMGR=1");
+  serialGPRS.println("AT+CMGR=1");
   delay(100);
   Serial.println();
 } 

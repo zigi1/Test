@@ -100,7 +100,7 @@ void clearBufferArray()              // function to clear buffer array
 {
   for (int i=0; i<count;i++)
     { gprsbuffer[i]=NULL;}                  // clear all index of array with command NULL
-} 
+} //
  
 void arcmr()
 {
